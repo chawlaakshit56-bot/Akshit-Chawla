@@ -14,7 +14,7 @@ class MySQLTodoApp:
         self.root = root
         root.title("MySQL Notes / To-Do App")
         root.geometry("550x520")
-        root.resizable(False, False)
+        root.resizable(True, True)
 
         self.db_connect()
         self.ensure_table()
